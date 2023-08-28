@@ -1,0 +1,31 @@
+.form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   column-gap:40px;
+   padding-top: 10%;
+   gap: 10%;
+    background-color: lightgray;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+}
+.submit{
+    background-color: white;
+}
+.logo{
+    align-items: top;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+}
+
+form div {
+    padding-bottom: 10px;
+    text-align: center;
+}
